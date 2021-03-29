@@ -1,0 +1,2 @@
+class YesCreateInput {}
+export { YesCreateInput };

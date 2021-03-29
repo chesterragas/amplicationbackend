@@ -1,0 +1,2 @@
+class YesUpdateInput {}
+export { YesUpdateInput };
