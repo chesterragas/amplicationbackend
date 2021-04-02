@@ -6,7 +6,19 @@
     "attributes": "*"
   },
   {
+    "role": "guest",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -18,7 +30,19 @@
     "attributes": "*"
   },
   {
+    "role": "guest",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "guest",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -30,32 +54,8 @@
     "attributes": "*"
   },
   {
-    "role": "user",
-    "resource": "Yes",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Yes",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Yes",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Yes",
-    "action": "delete:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Yes",
+    "role": "guest",
+    "resource": "User",
     "action": "read:any",
     "attributes": "*"
   }
