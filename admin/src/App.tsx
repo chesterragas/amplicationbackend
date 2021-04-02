@@ -15,7 +15,6 @@ import BreadcrumbsProvider from "./components/breadcrumbs/BreadcrumbsProvider";
 import useBreadcrumbs from "./components/breadcrumbs/use-breadcrumbs";
 import PrivateRoute from "./components/PrivateRoute";
 import { UserIndex } from "./user/UserIndex";
-import { YesIndex } from "./yes/YesIndex";
 
 const App = (): React.ReactElement => {
   const history = useHistory();
@@ -85,7 +84,6 @@ const AppLayout = (): React.ReactElement => {
           <Switch>
             <PrivateRoute exact path="/" component={Navigation} />
             <PrivateRoute path="/users" component={UserIndex} />
-            <PrivateRoute path="/yeses" component={YesIndex} />
           </Switch>
         </Page>
       </MainLayout.Content>
